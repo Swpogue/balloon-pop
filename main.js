@@ -64,6 +64,7 @@ function checkBalloonPop(){
 
 function getRandomColor(){
   let i = Math.floor(Math.random() * possibleColors.length);
+  console.log(i);
   currentColor = possibleColors[i]
   
 }
